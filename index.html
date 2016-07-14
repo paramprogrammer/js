@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+
+<title></title>
+<script src="particles.min.js"></script>
+
+</head>
+<body>
+<div id="particles-js">SIDHU</div>
+<img scr="stanford125.jpg" alt=""/>
+<script src="app.js">
+(function() {
+
+var img = document.getElementById('particles-js').firstChild;
+img.onload = function() 
+    if(img.height > img.width) {
+        img.height = '100%';
+        img.width = 'auto';
+    }
+};
+
+}());</script>
+
+
+<style>
+#particles-js {
+	width:100%;
+	height:100%;	
+	background-color:#800000;
+}
+#particles-js img {
+   width: 100%;
+}
+</style>
+</body>
+</html>
+
